@@ -10,7 +10,8 @@ function App() {
     companyname: '',
     email: '',
     info1: '',
-    info2: ''
+    info2: '',
+    info3: ''
   });
 
   const { companyname, email } = data;
@@ -41,7 +42,7 @@ function App() {
       });
       await response.json();
       toast.success('Company added successfully');
-      setData({ companyname: '', email: '', info1: '', info2: '' });
+      setData({ companyname: '', email: '', info1: '', info2: '', info3: '' });
     } catch (error) {
       console.log(error);
     }
@@ -50,7 +51,7 @@ function App() {
     <div className='w-100 d-flex align-items-center justify-content-center' style={{ height: '100vh' }} onSubmit={handleSubmit}>
       <ToastContainer
         position="top-right"
-        autoClose={5000}
+        autoClose={3000}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -76,6 +77,9 @@ function App() {
           </div>
           <div className='form-group mt-3'>
             <input type='text' name='info2' className='form-control mt-1' placeholder='Information2' value={data.info2} onChange={handleChange} />
+          </div>
+          <div className='form-group mt-3'>
+            <input type='text' name='info3' className='form-control mt-1' placeholder='Information3' value={data.info3} onChange={handleChange} />
           </div>
         </div>
         <div className='card-footer d-flex justify-content-center mt-3'>
