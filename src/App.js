@@ -61,7 +61,7 @@ function App() {
         pauseOnHover
         theme="light"
       />
-      <form className='w-30 card shadow-lg p-5 form bg-dark' style={{ height: '60vh' }}>
+      <form className='w-30 card shadow-lg p-5 form bg-dark' style={{ minHeight: '60vh' }}>
         <div className='card-header text-white text-center'>
           <h1>Create New Company</h1>
         </div>
