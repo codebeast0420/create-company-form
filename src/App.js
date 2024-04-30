@@ -84,7 +84,7 @@ function App() {
         </div>
         <div className='card-footer d-flex justify-content-between mt-3'>
           <button className='btn btn-primary mt-2 p-2' style={{ width: '40%' }}>Submit</button>
-          <a href='https://analytics.deep-pharma.tech/Clinical_optimization_Q4_2022/Teaser.pdf' target='_blank' className='btn btn-primary mt-2 p-2' style={{ width: '40%' }}>View Template</a>
+          <a href='https://drive.google.com/file/d/1zZaIAMbvLT8WtRVKvdtezJ-DfImCKHdF/view?usp=sharing' target='_blank' className='btn btn-primary mt-2 p-2' style={{ width: '40%' }}>View Template</a>
         </div>
       </form>
     </div>
